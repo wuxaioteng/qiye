@@ -58,11 +58,58 @@ header .yu{
     margin-bottom: 20px;
     margin: 0 auto;
 }
-.da img{
+.da ul li{
+    width: 1349px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.da ul li.active{
+    display: block;
+    z-index: 999;
+}
+.da ul li img{
     display: block;
     width: 1349px;
     height: 450px;
 }
+.ai_q{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+.ai_q .s_qu{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+.s_qu:hover{
+    background: #D7F257;
+}
+.s_qu.active{
+    background: #D7F257;
+}
+
+
+
+
+
+
+
+
+
+
+
 .re{
     width: 1000px;
     height: 80px;
